@@ -9,9 +9,9 @@
             _passengerAirlineRequest = passengerAirlineRequest;
         }
 
-        public Airliner GetAirCraft()
+        public Passenger GetAirCraft()
         {
-            return new Airliner
+            return new Passenger
             {
                 Capacity = _passengerAirlineRequest.Capacity,
                 HasOnboardMeal = _passengerAirlineRequest.HasMeal,

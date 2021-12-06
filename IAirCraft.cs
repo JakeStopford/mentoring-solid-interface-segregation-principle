@@ -2,7 +2,6 @@
 {
     public interface IAirCraft
     {
-        bool HasOnboardMeal { get; set; }
         int Capacity { get; set; }
 
         void Fly();
@@ -13,6 +12,5 @@
 
         void TurnLeft();
         void TurnRight();
-        void StartBeverageService();
     }
 }
